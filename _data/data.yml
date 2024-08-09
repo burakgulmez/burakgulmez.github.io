@@ -63,54 +63,34 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. 
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      My research interests span a wide range of cutting-edge areas in artificial intelligence and operations research. I'm particularly focused on metaheuristic algorithms, machine learning, deep learning, and their applications in big data analysis, transportation, and multi-objective optimization. These fields allow me to combine theoretical advancements with practical problem-solving.
+In my career, I've had the opportunity to work in diverse academic settings. Currently, I'm serving as an Associate Professor in Industrial Engineering (English) at Mudanya University in Türkiye. Prior to this, I completed a postdoctoral research position at the Leiden Institute of Advanced Computer Science, Leiden University in the Netherlands, which followed my role as a Research Assistant at Erciyes University in Türkiye.
+My educational background includes a Ph.D. and a Master's degree in Industrial Engineering from Erciyes University, and a Bachelor's degree in Industrial Engineering (English) from Hacettepe University. 
+I've been fortunate to gain international experience through various mobility programs. These include my postdoctoral research at Leiden University, summer schools at the University of Jyvaskyla in Finland, and a visiting researcher position at the University of Granada in Spain. These experiences have broadened my perspective and enhanced my collaborative skills in an international research environment.
+Throughout my career, I've been involved in several significant projects. These range from developing explainable AI for multi-criteria optimization to creating smart maintenance systems using deep learning. I've also worked on optimizing vehicle routing for shared taxi applications and solving complex scheduling problems in rail systems.
+In terms of technical skills, I'm proficient in various programming languages and tools essential for my research. These include Python, C#, Java, as well as specialized software like Minitab, Gurobi, and IBM CPLEX. These skills enable me to implement complex algorithms and conduct thorough data analyses in my research projects.
 
 experiences:
-    title: Experiences
+    title: Work Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Associate Professor
+        time: 2024 August - Present
+        company: Mudanya University, Türkiye
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Industrial Engineering Department
+        
+      - role: Postdoctoral Researcher
+        time: 2023 June - 2024 June
+        company: Leiden University, Netherlands
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Leiden Institute of Advanced Computer Science
+            
+      - role: Research Assistant
+        time: 2014 December - 2023 March
+        company: Erciyes University, Türkiye
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+          Industrial Engineering Department
+            
 education:
     title: Education
     info:
