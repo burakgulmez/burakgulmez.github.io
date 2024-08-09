@@ -10,7 +10,7 @@
   {% for paper in site.data.data.publications.journal_papers %}
     <div class="item">
       <div class="publication-title">
-        <a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>
+        {{ paper.title }}
       </div>
       <div class="publication-authors">{{ paper.authors }}</div>
       <div class="publication-details">
@@ -25,7 +25,7 @@
   {% for book in site.data.data.publications.books_and_chapters %}
     <div class="item">
       <div class="publication-title">
-        <a href="{{ book.link }}" target="_blank">{{ book.title }}</a>
+        {{ book.title }}
       </div>
       <div class="publication-authors">{{ book.authors }}</div>
       <div class="publication-details">
@@ -40,7 +40,7 @@
   {% for paper in site.data.data.publications.conference_papers %}
     <div class="item">
       <div class="publication-title">
-        <a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>
+        {{ paper.title }}
       </div>
       <div class="publication-authors">{{ paper.authors }}</div>
       <div class="publication-details">
