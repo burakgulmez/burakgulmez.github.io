@@ -15,13 +15,13 @@ sidebar:
     academic_profiles:
       - item: Google Scholar
         link: "https://scholar.google.com/citations?user=VCosCMgAAAAJ"
-        icon: fa-google-scholar
+        icon: ai ai-google-scholar
       - item: Scopus
         link: "https://www.scopus.com/authid/detail.uri?authorId=57211096048"
-        icon: fa-scopus
+        icon: ai ai-scopus
       - item: ResearchGate
         link: "https://www.researchgate.net/profile/Burak-Gulmez-2"
-        icon: fa-researchgate
+        icon: ai ai-researchgate
     
     # Sidebar links
     email: burakgulmez at yahoo.com #@webjeda.com
