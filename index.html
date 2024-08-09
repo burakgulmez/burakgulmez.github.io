@@ -1,33 +1,22 @@
-<section class="section career-profile" id="about">
-  {% include career-profile.html %}
-</section>
+index.html: ---
+layout: default
+---
 
-<section class="section experiences-section" id="experiences">
-  {% include experiences.html %}
-</section>
 
-<section class="section education-section" id="education">
-  {% unless site.data.data.sidebar.education %}
-    {% include education.html %}
-  {% endunless %}
-</section>
+{% include career-profile.html %}
 
-<section class="section certifications-section" id="certifications">
-  {% include certifications.html %}
-</section>
+{% include experiences.html %}
 
-<section class="section projects-section" id="projects">
-  {% include projects.html %}
-</section>
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
-<section class="section oss-contributions-section" id="oss-contributions">
-  {% include oss-contributions.html %}
-</section>
+{% include certifications.html %}
 
-<section class="section publications-section" id="publications">
-  {% include publications.html %}
-</section>
+{% include projects.html %}
 
-<section class="section skills-section" id="skills">
-  {% include skills.html %}
-</section>
+{% include oss-contributions.html %}
+
+{% include publications.html %}
+
+{% include skills.html %}
