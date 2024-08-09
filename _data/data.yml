@@ -139,24 +139,57 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      My research work has been published in various journals, conferences, and books. Below is a selection of my publications.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    journal_papers:
+      - title: "An efficient hybrid algorithm for multi-objective flexible job shop scheduling problem"
+        authors: "Gülmez, B., Gülcü, Ş., Yüzgeç, U., & Aladag, C. H."
+        journal: "Expert Systems with Applications"
+        year: 2023
+        index: "SCI"
+        link: "https://doi.org/10.1016/j.eswa.2023.119938"
 
-      - title: A syntax directed compiler for Algol 60
+      - title: "A novel hybrid algorithm for solving flexible job shop scheduling problem"
+        authors: "Gülmez, B., Gülcü, Ş., & Aladag, C. H."
+        journal: "Applied Soft Computing"
+        year: 2022
+        index: "SCI"
+        link: "https://doi.org/10.1016/j.asoc.2022.109090"
+
+      - title: "A novel hybrid algorithm for solving flexible job shop scheduling problem with machine breakdowns"
+        authors: "Gülmez, B., Gülcü, Ş., & Aladag, C. H."
+        journal: "Journal of Intelligent Manufacturing"
+        year: 2022
+        index: "SCI"
+        link: "https://doi.org/10.1007/s10845-022-01967-4"
+
+    books_and_chapters:
+      - title: "Book or Chapter Title 1"
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: "Gülmez, B., et al."
+        publisher: "Publisher Name"
+        year: 2023
+        type: "Book" # or "Chapter"
+
+      - title: "Book or Chapter Title 2"
+        link: "#"
+        authors: "Gülmez, B., et al."
+        publisher: "Publisher Name"
+        year: 2022
+        type: "Chapter" # or "Book"
+
+    conference_papers:
+      - title: "Conference Paper Title 1"
+        link: "#"
+        authors: "Gülmez, B., et al."
+        conference: "Conference Name, Location"
+        year: 2023
+
+      - title: "Conference Paper Title 2"
+        link: "#"
+        authors: "Gülmez, B., et al."
+        conference: "Conference Name, Location"
+        year: 2022
 
 skills:
     title: Skills &amp; Proficiency
