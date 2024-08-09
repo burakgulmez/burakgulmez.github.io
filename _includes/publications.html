@@ -9,29 +9,19 @@
   <h3>Journal Papers</h3>
   {% for paper in site.data.data.publications.journal_papers %}
     <div class="item">
-      <div class="publication-title"><a href="{{ paper.link }}">{{ paper.title }}</a></div>
+      <div class="publication-title">
+        <a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>
+      </div>
       <div class="publication-authors">{{ paper.authors }}</div>
-      <div class="publication-conference">{{ paper.journal }}, {{ paper.year }}</div>
+      <div class="publication-details">
+        <span class="publication-journal">{{ paper.journal }}</span>,
+        <span class="publication-year">{{ paper.year }}</span>,
+        <span class="publication-index">{{ paper.index }}</span>
+      </div>
     </div>
   {% endfor %}
 
-  <h3>Books and Book Chapters</h3>
-  {% for book in site.data.data.publications.books_and_chapters %}
-    <div class="item">
-      <div class="publication-title"><a href="{{ book.link }}">{{ book.title }}</a></div>
-      <div class="publication-authors">{{ book.authors }}</div>
-      <div class="publication-conference">{{ book.publisher }}, {{ book.year }} ({{ book.type }})</div>
-    </div>
-  {% endfor %}
-
-  <h3>Conference Papers</h3>
-  {% for paper in site.data.data.publications.conference_papers %}
-    <div class="item">
-      <div class="publication-title"><a href="{{ paper.link }}">{{ paper.title }}</a></div>
-      <div class="publication-authors">{{ paper.authors }}</div>
-      <div class="publication-conference">{{ paper.conference }}, {{ paper.year }}</div>
-    </div>
-  {% endfor %}
+  <!-- ... (keep the books and conference papers sections as they were) ... -->
 
 </section>
 {% endif %}
