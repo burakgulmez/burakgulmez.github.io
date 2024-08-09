@@ -22,16 +22,19 @@ sidebar:
       - item: ResearchGate
         link: "https://www.researchgate.net/profile/Burak-Gulmez-2"
         icon: ai ai-researchgate
+      - item: Email
+        link: "burakgulmez@yahoo.com"
+        icon: fa fa-envelope
     
     # Sidebar links
-    email: burakgulmez at yahoo.com #@webjeda.com
+    email: #burakgulmez at yahoo.com #@webjeda.com
     phone: #012 345 6789
     timezone: #Istanbul Timezone
     citizenship:
     website: #burakgulmez.github.io #do not add http://
-    linkedin: burakgulmez
+    linkedin: #burakgulmez
     xing: #alandoe
-    github: burakgulmez
+    github: #burakgulmez
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
