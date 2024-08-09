@@ -18,7 +18,11 @@ $sidebar-order: 2;
 @import "default"; // main partials
 
 .menu-container {
-  margin-top: 30px;
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* or any other color you prefer */
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* optional */
 }
 
 .menu {
