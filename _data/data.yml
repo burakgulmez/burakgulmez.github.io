@@ -11,7 +11,13 @@ sidebar:
     name: Burak Gülmez
     tagline: Associate professor
     avatar: 1680092763732-01.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
+    
+    academic_profiles:
+      - item: Scopus
+        link: "https://www.scopus.com/authid/detail.uri?authorId=YOUR_SCOPUS_ID"
+      - item: Google Scholar
+        link: "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+    
     # Sidebar links
     email: burakgulmez at yahoo.com #@webjeda.com
     phone: #012 345 6789
