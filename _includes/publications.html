@@ -1,32 +1,37 @@
-{% assign publications = site.data.data.publications %}
-{% if publications %}
+{% if site.data.data.publications %}
 <section class="section publications-section">
+  <h2 class="section-title"><i class="fas fa-book"></i>{{ site.data.data.publications.title }}</h2>
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ publications.title }}
-  </h2>
-
-  {% if publications.intro %}
-  <div class="intro">
-    {{ publications.intro | markdownify }}
-  </div><!--//intro-->
+  {% if site.data.data.publications.intro %}
+  <div class="intro">{{ site.data.data.publications.intro | markdownify }}</div>
   {% endif %}
 
-  {% for publication in publications.papers %}
-  <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
-    {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
-  </div><!--//item-->
+  <h3>Journal Papers</h3>
+  {% for paper in site.data.data.publications.journal_papers %}
+    <div class="item">
+      <div class="publication-title"><a href="{{ paper.link }}">{{ paper.title }}</a></div>
+      <div class="publication-authors">{{ paper.authors }}</div>
+      <div class="publication-conference">{{ paper.journal }}, {{ paper.year }}</div>
+    </div>
   {% endfor %}
 
-</section><!--//section-->
+  <h3>Books and Book Chapters</h3>
+  {% for book in site.data.data.publications.books_and_chapters %}
+    <div class="item">
+      <div class="publication-title"><a href="{{ book.link }}">{{ book.title }}</a></div>
+      <div class="publication-authors">{{ book.authors }}</div>
+      <div class="publication-conference">{{ book.publisher }}, {{ book.year }} ({{ book.type }})</div>
+    </div>
+  {% endfor %}
+
+  <h3>Conference Papers</h3>
+  {% for paper in site.data.data.publications.conference_papers %}
+    <div class="item">
+      <div class="publication-title"><a href="{{ paper.link }}">{{ paper.title }}</a></div>
+      <div class="publication-authors">{{ paper.authors }}</div>
+      <div class="publication-conference">{{ paper.conference }}, {{ paper.year }}</div>
+    </div>
+  {% endfor %}
+
+</section>
 {% endif %}
