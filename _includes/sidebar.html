@@ -17,17 +17,20 @@
 
   </div><!--//profile-container-->
 
-{% if site.data.data.sidebar.academic_profiles %}
+  {% if site.data.data.sidebar.academic_profiles %}
 <div class="academic-profiles-container container-block">
   <h2 class="container-block-title">Academic Profiles</h2>
   <ul class="list-unstyled academic-profiles-list">
     {% for profile in site.data.data.sidebar.academic_profiles %}
-      <li><a href="{{ profile.link }}" target="_blank">{{ profile.item }}</a></li>
+      <li>        
+          <i class="fab {{ profile.icon }} academic-icon"></i>      
+        <a href="{{ profile.link }}" target="_blank">{{ profile.item }}</a>
+      </li>
     {% endfor %}
   </ul>
 </div>
 {% endif %}
-  
+
   {% include contact.html %}
 
   {% if sidebar.education %}
