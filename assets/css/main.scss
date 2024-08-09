@@ -27,7 +27,7 @@ $sidebar-order: 2;
 
 .menu {
   list-style-type: none;
-  padding: 1;
+  padding: 0;
 }
 
 .menu-item {
@@ -40,6 +40,19 @@ $sidebar-order: 2;
   color: #fff;
   text-decoration: none;
   transition: transform 0.3s ease;
+}
+
+.menu-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 .menu-item a:hover {
