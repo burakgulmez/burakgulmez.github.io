@@ -105,30 +105,23 @@ education:
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
+      - title: Explainable Artificial Intelligence For Multi-Criteria Optimization And Decision Analysis
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "2023-2024, TUBITAK 2219 project"
 
-      - title: Tempo
+      - title: Smart Maintenance Decision Support System and Predictive Maintenance Application Based on Deep Learning
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "2021-2023, TUBITAK12 1505 project"
 
-      - title: Atom
+      - title: Development of Vehicle Optimization Technique for Shared Taxi Application
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "2021, Turkcell Technology"
 
-      - title: Delta
+      - title: A Matheuristic Approach for Integrated Tariff Determination and Machinist Scheduling Problem in Rail Systems
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "2017-2020, TUBITAK12 1001 project"
 
 publications:
     title: Publications
@@ -365,23 +358,15 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: #Python & Django
+        level: #98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: #Javascript & jQuery
+        level: #98%
 
-      - name: Angular
-        level: 98%
+      - name: #Angular
+        level: #98%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
