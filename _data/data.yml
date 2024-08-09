@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Burak Gülmez
     tagline: Associate professor
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: myphoto.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: burakgulmez@yahoo.com #@webjeda.com
