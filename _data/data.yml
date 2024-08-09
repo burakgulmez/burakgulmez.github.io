@@ -132,58 +132,234 @@ projects:
 
 publications:
     title: Publications
-    intro: |
-      My research work has been published in various journals, conferences, and books. Below is a selection of my publications.
+    intro: 
 
     journal_papers:
-      - title: "An efficient hybrid algorithm for multi-objective flexible job shop scheduling problem"
-        authors: "Gülmez, B., Gülcü, Ş., Yüzgeç, U., & Aladag, C. H."
+      - title: "Potato Research"
+        authors: "Gülmez, B."
+        journal: "Potato Research"
+        year: 2024
+        index: "SCIE"
+        link: "#"
+
+      - title: "A new multi-objective hyperparameter optimization algorithm for COVID-19 detection from x-ray images"
+        authors: "Gülmez, B."
+        journal: "Soft Computing"
+        year: 2024
+        index: "SCIE"
+        link: "#"
+
+      - title: "Advancements in rice disease detection through convolutional neural networks: A comprehensive review"
+        authors: "Gülmez, B."
+        journal: "Heliyon"
+        year: 2024
+        index: "SCIE"
+        link: "#"
+
+      - title: "Multi-objective optimization for green delivery routing problems with flexible time windows"
+        authors: "Gülmez, B., Emmerich, M., Fan, Y."
+        journal: "Applied Artificial Intelligence"
+        year: 2024
+        index: "SCIE"
+        link: "#"
+
+      - title: "Stock price prediction with optimized deep LSTM network with Artificial Rabbits Optimization Algorithm"
+        authors: "Gülmez, B."
         journal: "Expert Systems with Applications"
         year: 2023
-        index: "SCI"
-        link: "https://doi.org/10.1016/j.eswa.2023.119938"
+        index: "SCIE"
+        link: "#"
 
-      - title: "A novel hybrid algorithm for solving flexible job shop scheduling problem"
-        authors: "Gülmez, B., Gülcü, Ş., & Aladag, C. H."
-        journal: "Applied Soft Computing"
-        year: 2022
-        index: "SCI"
-        link: "https://doi.org/10.1016/j.asoc.2022.109090"
+      - title: "A novel deep neural network model based Xception and Genetic Algorithm for detection of COVID-19 from X-Ray images"
+        authors: "Gülmez, B."
+        journal: "Annals of Operations Research"
+        year: 2023
+        index: "SCIE"
+        link: "#"
 
-      - title: "A novel hybrid algorithm for solving flexible job shop scheduling problem with machine breakdowns"
-        authors: "Gülmez, B., Gülcü, Ş., & Aladag, C. H."
-        journal: "Journal of Intelligent Manufacturing"
+      - title: "A novel deep learning model with the Grey Wolf Optimization algorithm for cotton disease detection"
+        authors: "Gülmez, B."
+        journal: "Journal of Universal Computer Science"
+        year: 2023
+        index: "SCIE"
+        link: "#"
+
+      - title: "Analysis and price prediction of secondhand vehicles in Türkiye with big data and machine learning techniques (Turkish)"
+        authors: "Gülmez, B., Kulluk, S."
+        journal: "Journal of Gazi University Engineering Faculty of Architecture"
+        year: 2023
+        index: "SCIE"
+        link: "#"
+
+      - title: "FC-Kmeans: Fixed-Centered Kmeans algorithm"
+        authors: "Ay, M., Özbakır, L., Kulluk, S., Gülmez, B., Öztürk, G., Özer, S."
+        journal: "Expert Systems with Applications"
+        year: 2023
+        index: "SCIE"
+        link: "#"
+
+      - title: "A constraint programming based column generation approach for crew scheduling: a case study for the Kayseri Railway"
+        authors: "Tapkan, P., Kulluk, S., Özbakır, L., Bahar, F., Gülmez, B."
+        journal: "Journal of the Operational Research Society"
+        year: 2023
+        index: "SCIE"
+        link: "#"
+
+      - title: "CNN-LSTM and clustering based spatial-temporal demand forecasting for on-demand ride services"
+        authors: "Ay, M., Kulluk, S., Özbakır, L., Gülmez, B., Öztürk, G., Özer, S."
+        journal: "Neural Computing and Applications"
         year: 2022
-        index: "SCI"
-        link: "https://doi.org/10.1007/s10845-022-01967-4"
+        index: "SCIE"
+        link: "#"
+
+      - title: "Optimizing and comparison of market chain product distribution problem with different Genetic Algorithm versions (Turkish)"
+        authors: "Gülmez, B."
+        journal: "Osmaniye Korkut Ata University Journal of The Institute of Science and Technology"
+        year: 2022
+        index: "TR"
+        link: "#"
+
+      - title: "A modeling approach to the train timetabling problem using adaptive headways for dynamic passenger demand"
+        authors: "Özbakır, L., Tapkan, P., Kulluk, S., Bahar, F., Gülmez, B."
+        journal: "International Journal of Rail Transportation"
+        year: 2022
+        index: "SCIE"
+        link: "#"
+
+      - title: "Social Spider Algorithm for training artificial neural networks"
+        authors: "Gülmez, B., Kulluk, S."
+        journal: "International Journal of Business Analytics"
+        year: 2019
+        index: "ESCI"
+        link: "#"
 
     books_and_chapters:
-      - title: "Book or Chapter Title 1"
-        link: "#"
-        authors: "Gülmez, B., et al."
-        publisher: "Publisher Name"
+      - title: "Improved discrete queuing search algorithm for traveling salesman problem"
+        authors: "Gülmez, B."
+        publisher: "International Research in Engineering Sciences VI"
         year: 2023
-        type: "Book" # or "Chapter"
-
-      - title: "Book or Chapter Title 2"
+        type: "Chapter"
         link: "#"
-        authors: "Gülmez, B., et al."
-        publisher: "Publisher Name"
+
+      - title: "MonkeypoxHybridNet: A hybrid deep convolutional neural network model for monkeypox disease detection"
+        authors: "Gülmez, B."
+        publisher: "International Research in Engineering Sciences III"
         year: 2022
-        type: "Chapter" # or "Book"
+        type: "Chapter"
+        link: "#"
+
+      - title: "Demand forecasting and production planning in a factory with time series analysis (Turkish)"
+        authors: "Gülmez, B."
+        publisher: "International Research in Engineering Sciences II"
+        year: 2022
+        type: "Chapter"
+        link: "#"
 
     conference_papers:
-      - title: "Conference Paper Title 1"
-        link: "#"
-        authors: "Gülmez, B., et al."
-        conference: "Conference Name, Location"
+      - title: "Multi-objective green delivery routing with flexible time windows: minimizing fossile fuel consumption versus maximizing quality of service"
+        authors: "Emmerich, M., Gülmez, B., Fan, Y."
+        conference: "CM3 – TRANSPORT 2023"
+        location: "Jyvaskyla, Finland"
         year: 2023
-
-      - title: "Conference Paper Title 2"
         link: "#"
-        authors: "Gülmez, B., et al."
-        conference: "Conference Name, Location"
+
+      - title: "Rose leaf disease detection with deep learning using particle swarm optimization (Turkish)"
+        authors: "Gülmez, B."
+        conference: "International Conference on Modern and Advanced Research"
+        location: "Konya, Türkiye"
+        year: 2023
+        link: "#"
+
+      - title: "Helmet Detection with Deep Learning for Workplace Safety (Turkish)"
+        authors: "Gülmez, B."
+        conference: "International Conference on Engineering and Applied Natural Sciences"
+        location: "Konya, Türkiye"
+        year: 2023
+        link: "#"
+
+      - title: "Vehicle Routing Problem Optimization with Artificial Rabbit Algorithm (Turkish)"
+        authors: "Gülmez, B."
+        conference: "International Conference on Smart Logistics"
+        location: "Istanbul, Türkiye"
         year: 2022
+        link: "#"
+
+      - title: "Prediction of Retail Prices of Roasted Coffee by Time Series Analysis"
+        authors: "Gülmez, B."
+        conference: "International Anatolian Congress on Coffee & Cocoa"
+        location: "Malatya, Türkiye"
+        year: 2021
+        link: "#"
+
+      - title: "Covid-19 Vaccine Distribution Time Optimization with Genetic Algorithm"
+        authors: "Gülmez, B., Korhan, E."
+        conference: "The International Conference on Engineering, Natural and Applied Science"
+        location: "Osmaniye, Türkiye"
+        year: 2021
+        link: "#"
+
+      - title: "SSIM: A Hybrid of Social Spider and Ions Motion Algorithms and Its Application to ANN Training"
+        authors: "Gülmez, B., Kulluk, S."
+        conference: "International Conference on Engineering and Natural Sciences"
+        location: "Kyiv, Ukraine"
+        year: 2018
+        link: "#"
+
+      - title: "Simultaneous Feature Selection and ANN Training for Data Mining Applications"
+        authors: "Gülmez, B., Kulluk, S."
+        conference: "International Conference on Engineering and Natural Sciences"
+        location: "Kyiv, Ukraine"
+        year: 2018
+        link: "#"
+
+      - title: "Training Fuzzy Neural Networks with Social Spider Algorithm"
+        authors: "Gülmez, B., Kulluk, S., Torun, H."
+        conference: "International Fuzzy Systems Symposium"
+        location: "Ankara, Türkiye"
+        year: 2017
+        link: "#"
+
+      - title: "Stochastic Fractal Search Algorithm for Training ANNs on Production Dataset"
+        authors: "Gülmez, B., Kulluk, S., Özbakir, L., Tapkan, P."
+        conference: "International Symposium for Production Research"
+        location: "Vienna, Austria"
+        year: 2017
+        link: "#"
+
+      - title: "Adaptive Social Spider Algorithm for Training Neural Networks"
+        authors: "Gülmez, B., Kulluk, S."
+        conference: "International Symposium for Production Research"
+        location: "Vienna, Austria"
+        year: 2017
+        link: "#"
+
+      - title: "Training Artificial Neural Networks with Ions Motion Algorithm on Real Estate Dataset"
+        authors: "Gülmez, B., Kulluk, S."
+        conference: "International Conference on Engineering and Natural Sciences"
+        location: "Budapest, Hungary"
+        year: 2017
+        link: "#"
+
+      - title: "Training Artificial Neural Networks with Ions Motion Algorithm (Turkish)"
+        authors: "Gülmez, B., Kulluk, S."
+        conference: "Operations Research / Industrial Engineering Congress"
+        location: "Izmir, Türkiye"
+        year: 2016
+        link: "#"
+
+      - title: "Operating Room Scheduling in Erciyes University Hospital (Turkish)"
+        authors: "Altunpala, O., Köksal, D., Koç, K., Kulluk, S., Gülmez, B."
+        conference: "Operations Research / Industrial Engineering Congress"
+        location: "Izmir, Türkiye"
+        year: 2016
+        link: "#"
+
+      - title: "Optimizing of Water Distribution System with Ant Colony Algorithm (Turkish)"
+        authors: "Gülmez, B., Kulluk, S., Özbakır, L."
+        conference: "Operations Research / Industrial Engineering Congress"
+        location: "Ankara, Türkiye"
+        year: 2015
+        link: "#"
 
 skills:
     title: Skills &amp; Proficiency
