@@ -30,8 +30,22 @@ $sidebar-order: 2;
   padding: 0;
 }
 
+.menu-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff; /* Button background color */
+  color: #42A8C0; /* Button text color */
+  border: none;
+  font-size: 24px; /* Font size for the button */
+  cursor: pointer;
+  position: relative; /* Position relative for absolute positioning of menu items */
+  z-index: 1; /* Ensure button is above menu items */
+}
+
 .menu-item {
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .menu-item a {
