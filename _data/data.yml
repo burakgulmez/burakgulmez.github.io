@@ -5,7 +5,7 @@
 sidebar:
     position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Burak Gülmez
@@ -15,7 +15,7 @@ sidebar:
     # Sidebar links
     email: burakgulmez@yahoo.com #@webjeda.com
     phone: #012 345 6789
-    timezone: Istanbul Timezone
+    timezone: #Istanbul Timezone
     citizenship:
     website: burakgulmez.github.io #do not add http://
     linkedin: #
@@ -49,8 +49,8 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
+      lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. 
       Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
       penatibus et magnis dis parturient montes, nascetur ridiculus mus.
       Donec quam felis, ultricies nec, pellentesque eu.
