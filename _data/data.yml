@@ -25,6 +25,20 @@ sidebar:
       - item: Email
         link: "mailto:burakgulmez@yahoo.com"
         icon: fa fa-envelope
+
+    menu:
+      - title: About me
+        url: "#about"
+      - title: Work experience
+        url: "#experiences"
+      - title: Education
+        url: "#education"
+      - title: Projects
+        url: "#projects"
+      - title: Publications
+        url: "#publications"
+      - title: Skills
+        url: "#skills"
     
     # Sidebar links
     email: #burakgulmez at yahoo.com #@webjeda.com
