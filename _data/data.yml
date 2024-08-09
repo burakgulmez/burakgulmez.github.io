@@ -15,10 +15,10 @@ sidebar:
     academic_profiles:
       - item: Google Scholar
         link: "https://scholar.google.com/citations?user=VCosCMgAAAAJ"
-        icon: fa-google
+        icon: fa-google-scholar
       - item: Scopus
         link: "https://www.scopus.com/authid/detail.uri?authorId=57211096048"
-        icon: fa-google
+        icon: fa-scopus
       - item: ResearchGate
         link: "https://www.researchgate.net/profile/Burak-Gulmez-2"
         icon: fa-researchgate
