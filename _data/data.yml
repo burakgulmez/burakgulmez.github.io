@@ -11,19 +11,24 @@ sidebar:
     name: Burak Gülmez
     tagline: Associate professor
     avatar: 1680092763732-01.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    
+
     academic_profiles:
-      - item: Scopus
-        link: "https://www.scopus.com/authid/detail.uri?authorId=YOUR_SCOPUS_ID"
       - item: Google Scholar
-        link: "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+        link: "https://scholar.google.com/citations?user=VCosCMgAAAAJ"
+        icon: fa-google
+      - item: Scopus
+        link: "https://www.scopus.com/authid/detail.uri?authorId=57211096048"
+        icon: fa-google
+      - item: ResearchGate
+        link: "https://www.researchgate.net/profile/Burak-Gulmez-2"
+        icon: fa-researchgate
     
     # Sidebar links
     email: burakgulmez at yahoo.com #@webjeda.com
     phone: #012 345 6789
     timezone: #Istanbul Timezone
     citizenship:
-    website: burakgulmez.github.io #do not add http://
+    website: #burakgulmez.github.io #do not add http://
     linkedin: burakgulmez
     xing: #alandoe
     github: burakgulmez
