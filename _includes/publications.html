@@ -21,7 +21,35 @@
     </div>
   {% endfor %}
 
-  <!-- ... (keep the books and conference papers sections as they were) ... -->
+  <h3>Books and Book Chapters</h3>
+  {% for book in site.data.data.publications.books_and_chapters %}
+    <div class="item">
+      <div class="publication-title">
+        <a href="{{ book.link }}" target="_blank">{{ book.title }}</a>
+      </div>
+      <div class="publication-authors">{{ book.authors }}</div>
+      <div class="publication-details">
+        <span class="publication-publisher">{{ book.publisher }}</span>,
+        <span class="publication-year">{{ book.year }}</span>,
+        <span class="publication-type">{{ book.type }}</span>
+      </div>
+    </div>
+  {% endfor %}
+
+  <h3>Conference Papers</h3>
+  {% for paper in site.data.data.publications.conference_papers %}
+    <div class="item">
+      <div class="publication-title">
+        <a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a>
+      </div>
+      <div class="publication-authors">{{ paper.authors }}</div>
+      <div class="publication-details">
+        <span class="publication-conference">{{ paper.conference }}</span>,
+        <span class="publication-location">{{ paper.location }}</span>,
+        <span class="publication-year">{{ paper.year }}</span>
+      </div>
+    </div>
+  {% endfor %}
 
 </section>
 {% endif %}
