@@ -128,6 +128,14 @@ publications:
     intro: 
 
     journal_papers:
+
+      - title: "Multi-objective optimization for green delivery routing problems with flexible time windows"
+        authors: "Gülmez, B., Emmerich, M., Fan, Y."
+        journal: "Applied Artificial Intelligence"
+        year: 2024
+        index: "SCIE"
+        link: "#"
+    
       - title: "A comprehensive review of CNN-based disease detection strategies on potato agriculture"
         authors: "Gülmez, B."
         journal: "Potato Research"
@@ -145,13 +153,6 @@ publications:
       - title: "Advancements in rice disease detection through convolutional neural networks: A comprehensive review"
         authors: "Gülmez, B."
         journal: "Heliyon"
-        year: 2024
-        index: "SCIE"
-        link: "#"
-
-      - title: "Multi-objective optimization for green delivery routing problems with flexible time windows"
-        authors: "Gülmez, B., Emmerich, M., Fan, Y."
-        journal: "Applied Artificial Intelligence"
         year: 2024
         index: "SCIE"
         link: "#"
