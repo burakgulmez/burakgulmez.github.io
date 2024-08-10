@@ -78,8 +78,11 @@ career-profile:
     title: About me
     summary: |
       My current position: Associate Professor, Industrial Engineering Department, Mudanya University, Bursa, Türkiye
+      
       My research interests: Artificial intelligence, Metaheuristic algorithms, Machine learning, Deep learning, Operations research, Big data, Data mining, Transportation, Logistics, Multi-objective optimization. 
+      
       The countries I have lived in: Türkiye, Spain, Netherlands.  
+      
       Research software: Python, C#, Java, Minitab, Gurobi, and IBM CPLEX.
 experiences:
     title: Work Experience
