@@ -7,49 +7,49 @@
   {% endif %}
 
   <h3>Journal Papers</h3>
-  {% for paper in site.data.data.publications.journal_papers %}
-    <div class="item">
-      <div class="publication-title">
-        {{ paper.title }}
-      </div>
-      <div class="publication-authors">{{ paper.authors }}</div>
-      <div class="publication-details">
-        <span class="publication-journal">{{ paper.journal }}</span>,
-        <span class="publication-year">{{ paper.year }}</span>,
-        <span class="publication-index">{{ paper.index }}</span>
-      </div>
-    </div>
-  {% endfor %}
+  <ol class="publications-list journal-papers">
+    {% for paper in site.data.data.publications.journal_papers %}
+      <li class="item">
+        <div class="publication-title">{{ paper.title }}</div>
+        <div class="publication-authors">{{ paper.authors }}</div>
+        <div class="publication-details">
+          <span class="publication-journal">{{ paper.journal }}</span>,
+          <span class="publication-year">{{ paper.year }}</span>,
+          <span class="publication-index">{{ paper.index }}</span>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
 
   <h3>Books and Book Chapters</h3>
-  {% for book in site.data.data.publications.books_and_chapters %}
-    <div class="item">
-      <div class="publication-title">
-        {{ book.title }}
-      </div>
-      <div class="publication-authors">{{ book.authors }}</div>
-      <div class="publication-details">
-        <span class="publication-publisher">{{ book.publisher }}</span>,
-        <span class="publication-year">{{ book.year }}</span>,
-        <span class="publication-type">{{ book.type }}</span>
-      </div>
-    </div>
-  {% endfor %}
+  <ol class="publications-list books-and-chapters">
+    {% for book in site.data.data.publications.books_and_chapters %}
+      <li class="item">
+        <div class="publication-title">{{ book.title }}</div>
+        <div class="publication-authors">{{ book.authors }}</div>
+        <div class="publication-details">
+          <span class="publication-publisher">{{ book.publisher }}</span>,
+          <span class="publication-year">{{ book.year }}</span>,
+          <span class="publication-type">{{ book.type }}</span>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
 
   <h3>Conference Papers</h3>
-  {% for paper in site.data.data.publications.conference_papers %}
-    <div class="item">
-      <div class="publication-title">
-        {{ paper.title }}
-      </div>
-      <div class="publication-authors">{{ paper.authors }}</div>
-      <div class="publication-details">
-        <span class="publication-conference">{{ paper.conference }}</span>,
-        <span class="publication-location">{{ paper.location }}</span>,
-        <span class="publication-year">{{ paper.year }}</span>
-      </div>
-    </div>
-  {% endfor %}
+  <ol class="publications-list conference-papers">
+    {% for paper in site.data.data.publications.conference_papers %}
+      <li class="item">
+        <div class="publication-title">{{ paper.title }}</div>
+        <div class="publication-authors">{{ paper.authors }}</div>
+        <div class="publication-details">
+          <span class="publication-conference">{{ paper.conference }}</span>,
+          <span class="publication-location">{{ paper.location }}</span>,
+          <span class="publication-year">{{ paper.year }}</span>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
 
 </section>
 {% endif %}
