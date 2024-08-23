@@ -37,8 +37,7 @@ sidebar:
         url: "#projects"
       - title: Publications
         url: "#publications"
-      - title: Skills
-        url: "#skills"
+      
     
     # Sidebar links
     email: #burakgulmez at yahoo.com #@webjeda.com
@@ -156,7 +155,7 @@ publications:
         index: "SCIE"
         link: "#"
     
-      - title: "A comprehensive review of CNN-based disease detection strategies on potato agriculture"
+      - title: "A comprehensive review of convolutional neural networks based disease detection strategies in potato agriculture"
         authors: "Gülmez, B."
         journal: "Potato Research"
         year: 2024
