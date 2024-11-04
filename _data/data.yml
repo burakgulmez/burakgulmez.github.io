@@ -148,6 +148,13 @@ publications:
 
     journal_papers:
 
+      - title: "Advancements in maize disease detection: A comprehensive review of convolutional neural networks"
+        authors: "Gülmez, B."
+        journal: "Computers in Biology and Medicine"
+        year: 2024
+        index: "SCIE"
+        link: "#"
+
       - title: "Multi-objective optimization for green delivery routing problems with flexible time windows"
         authors: "Gülmez, B., Emmerich, M., Fan, Y."
         journal: "Applied Artificial Intelligence"
