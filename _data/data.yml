@@ -146,6 +146,13 @@ publications:
 
     journal_papers:
 
+      - title: "GA-Attention-Fuzzy-Stock-Net: An Optimized Neuro-Fuzzy System for Stock Market Price Prediction with Genetic Algorithm and Attention Mechanism"
+        authors: "Gülmez, B."
+        journal: "Heliyon"
+        year: 2025
+        index: "SCIE"
+        link: "#"
+
       - title: "Stock price prediction using the Sand Cat Swarm Optimization and an improved deep Long Short Term Memory network"
         authors: "Gülmez, B."
         journal: "Borsa Istanbul Review"
