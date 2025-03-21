@@ -146,6 +146,14 @@ publications:
 
     journal_papers:
 
+
+      - title: "A novel hybrid MCDM framework combining TOPSIS, PROMETHEE II, and VIKOR for peach drying method selection"
+        authors: "Gülmez, B."
+        journal: "Current Research in Food Science"
+        year: 2025
+        index: "SCIE"
+        link: "#"
+
       - title: "GA-Attention-Fuzzy-Stock-Net: An Optimized Neuro-Fuzzy System for Stock Market Price Prediction with Genetic Algorithm and Attention Mechanism"
         authors: "Gülmez, B."
         journal: "Heliyon"
