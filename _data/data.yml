@@ -161,6 +161,13 @@ publications:
         index: "SCIE"
         link: "#"
 
+      - title: "A Hybrid Approach for Stock Market Price Forecasting Using Long Short-Term Memory and Seahorse Optimization Algorithm"
+        authors: "Gülmez, B."
+        journal: "Annals of Data Science"
+        year: 2025
+        index: "Scopus"
+        link: "#"
+
       - title: "Stock price prediction using the Sand Cat Swarm Optimization and an improved deep Long Short Term Memory network"
         authors: "Gülmez, B."
         journal: "Borsa Istanbul Review"
