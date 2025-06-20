@@ -161,6 +161,13 @@ publications:
         index: "SCIE"
         link: "#"
 
+      - title: "Deep learning-based colorectal cancer detection in medical images: A comprehensive analysis of datasets, methods, and future directions"
+        authors: "Gülmez, B."
+        journal: "Clinical Imaging"
+        year: 2025
+        index: "SCIE"
+        link: "#"
+
       - title: "A Hybrid Approach for Stock Market Price Forecasting Using Long Short-Term Memory and Seahorse Optimization Algorithm"
         authors: "Gülmez, B."
         journal: "Annals of Data Science"
