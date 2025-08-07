@@ -210,13 +210,6 @@ publications:
         index: "SCIE"
         link: "#"
 
-      - title: "Advancements in rice disease detection through convolutional neural networks: A comprehensive review"
-        authors: "Gülmez, B."
-        journal: "Heliyon"
-        year: 2024
-        index: "SCIE"
-        link: "#"
-
       - title: "Stock price prediction with optimized deep LSTM network with Artificial Rabbits Optimization Algorithm"
         authors: "Gülmez, B."
         journal: "Expert Systems with Applications"
