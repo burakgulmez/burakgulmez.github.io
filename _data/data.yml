@@ -76,7 +76,7 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      **My current position:** Associate Professor, Industrial Engineering Department, Mudanya University, Bursa, Türkiye
+      **My current position:** Researcher, School of Civil Engineering, University College Dublin, Dublin, Ireland
       
       **My research interests:** Artificial intelligence, Metaheuristic algorithms, Machine learning, Deep learning, Operations research, Big data, Data mining, Transportation, Logistics, Multi-objective optimization. 
 
@@ -84,6 +84,12 @@ career-profile:
 experiences:
     title: Work Experience
     info:
+      - role: Researcher
+        time: 2025 September - 
+        company: University College Dublin, Ireland
+        details: |
+          School of Civil Engineering
+    
       - role: Associate Professor
         time: 2024 August - 2025 August
         company: Mudanya University, Türkiye
