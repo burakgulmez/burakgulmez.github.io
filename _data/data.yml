@@ -76,7 +76,7 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      **My current position:** Researcher, School of Civil Engineering, University College Dublin, Dublin, Ireland
+      **My current position:** Postdoctoral Researcher, School of Civil Engineering, University College Dublin, Dublin, Ireland
       
       **My research interests:** Artificial intelligence, Metaheuristic algorithms, Machine learning, Deep learning, Operations research, Big data, Data mining, Transportation, Logistics, Multi-objective optimization. 
 
@@ -84,8 +84,8 @@ career-profile:
 experiences:
     title: Work Experience
     info:
-      - role: Researcher
-        time: 2025 September - 
+      - role: Postdoctoral Researcher
+        time: 2025 September - 2026 June
         company: University College Dublin, Ireland
         details: |
           School of Civil Engineering
