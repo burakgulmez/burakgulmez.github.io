@@ -153,6 +153,13 @@ publications:
     intro: 
 
     journal_papers:
+    
+      - title: "A hybrid Decision tree-Markowitz framework for intelligent trading portfolio optimization"
+        authors: "Korhan, E.; Gülmez, B."
+        journal: "Applied Intelligence"
+        year: 2026
+        index: "SCIE"
+        link: "#"
 
       - title: "Artificial intelligence applications in ovarian cancer detection: A systematic literature review of deep learning approaches and clinical translation challenges"
         authors: "Gülmez, B."
