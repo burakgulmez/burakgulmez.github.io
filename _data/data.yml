@@ -161,6 +161,13 @@ publications:
         index: "SCIE"
         link: "#"
 
+      - title: "Convolutional neural networks for prostate cancer detection, classification, and segmentation: A systematic review and bibliometric analysis"
+        authors: "Gülmez, B."
+        journal: "European Journal of Radiology Open"
+        year: 2026
+        index: "ESCI"
+        link: "#"
+
       - title: "Artificial intelligence applications in ovarian cancer detection: A systematic literature review of deep learning approaches and clinical translation challenges"
         authors: "Gülmez, B."
         journal: "Critical Reviews in Oncology/Hematology"
