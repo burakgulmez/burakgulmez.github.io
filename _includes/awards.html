@@ -1,5 +1,5 @@
 {% if site.data.data.awards %}
-<section class="section awards-section" id="awards">
+<section class="section awards-section">
     <h2 class="section-title">
         <span class="fa-stack fa-xs">
             <i class="fas fa-circle fa-stack-2x"></i>
@@ -10,14 +10,18 @@
     <div class="awards-wrapper">
         {% for item in site.data.data.awards.list %}
         <div class="item row">
-            <div class="col-xs-2 col-md-1 award-year">
-                <span class="badge badge-theme">{{item.year}}</span>
+            <div class="meta col-xs-12 col-md-3">
+                <div class="upper-row">
+                    <span class="year">{{item.year}}</span>
+                </div>
+                <div class="company">{{item.body}}</div>
             </div>
-            <div class="col-xs-10 col-md-11 award-content">
-                <h4 class="award-title">{{item.award}}</h4>
-                <div class="award-body text-muted">{{item.body}}</div>
+            <div class="details col-xs-12 col-md-9">
+                <h3 class="position">{{item.award}}</h3>
                 {% if item.details %}
-                <div class="award-details">{{item.details}}</div>
+                <div class="description">
+                    <p>{{item.details}}</p>
+                </div>
                 {% endif %}
             </div>
         </div>
