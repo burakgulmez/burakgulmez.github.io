@@ -3,35 +3,39 @@ layout: default
 ---
 
 <section id="about">
-  {% include career-profile.html %}
+{% include career-profile.html %}
 </section>
 
 <section id="experiences">
-  {% include experiences.html %}
+{% include experiences.html %}
 </section>
 
 {% unless site.data.data.sidebar.education %}
-  <section id="education">
-    {% include education.html %}
-  </section>
+<section id="education">
+{% include education.html %}
+</section>
 {% endunless %}
 
+<section id="awards">
+{% include awards.html %}
+</section>
+
 <section id="certifications">
-  {% include certifications.html %}
+{% include certifications.html %}
 </section>
 
 <section id="projects">
-  {% include projects.html %}
+{% include projects.html %}
 </section>
 
 <section id="oss-contributions">
-  {% include oss-contributions.html %}
+{% include oss-contributions.html %}
 </section>
 
 <section id="publications">
-  {% include publications.html %}
+{% include publications.html %}
 </section>
 
 <section id="skills">
-  {% include skills.html %}
+{% include skills.html %}
 </section>
