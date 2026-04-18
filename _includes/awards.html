@@ -7,25 +7,14 @@
         </span>
         {{site.data.data.awards.title}}
     </h2>
-    <div class="awards-wrapper">
+    <ul class="list-unstyled">
         {% for item in site.data.data.awards.list %}
-        <div class="item row">
-            <div class="meta col-xs-12 col-md-3">
-                <div class="upper-row">
-                    <span class="year">{{item.year}}</span>
-                </div>
-                <div class="company">{{item.body}}</div>
-            </div>
-            <div class="details col-xs-12 col-md-9">
-                <h3 class="position">{{item.award}}</h3>
-                {% if item.details %}
-                <div class="description">
-                    <p>{{item.details}}</p>
-                </div>
-                {% endif %}
-            </div>
-        </div>
+        <li class="item" style="margin-bottom: 10px;">
+            <span class="badge badge-primary" style="margin-right: 8px; font-size: 0.8em;">{{item.year}}</span>
+            <strong>{{item.award}}</strong>
+            <span class="text-muted" style="font-size: 0.85em;"> — {{item.body}}</span>
+        </li>
         {% endfor %}
-    </div>
+    </ul>
 </section>
 {% endif %}
