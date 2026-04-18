@@ -33,6 +33,8 @@ sidebar:
         url: "#experiences"
       - title: Education
         url: "#education"
+      - title: Awards
+        url: "#awards"
       - title: Projects
         url: "#projects"
       - title: Publications
@@ -40,7 +42,7 @@ sidebar:
       
     
     # Sidebar links
-    email: #burakgulmez at yahoo.com #@webjeda.com
+    email: #burakgulmez at yahoo.com
     phone: #012 345 6789
     timezone: #Istanbul Timezone
     citizenship:
@@ -76,13 +78,16 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      **Top 2% scientists list by Stanford Univesity and Scopus, 2025** 
-    
+      **Top 2% scientists list by Stanford University and Scopus, 2025**
+
+      **MSCA Postdoctoral Fellowships Seal of Excellence, European Commission, 2025 & 2026**
+
       **My current position:** Postdoctoral Researcher, School of Civil Engineering, University College Dublin, Dublin, Ireland
       
-      **My research interests:** Artificial intelligence, Metaheuristic algorithms, Machine learning, Deep learning, Operations research, Big data, Data mining, Transportation, Logistics, Multi-objective optimization. 
+      **My research interests:** Artificial intelligence, Metaheuristic algorithms, Machine learning, Deep learning, Operations research, Big data, Data mining, Transportation, Logistics, Multi-objective optimization.
 
       **Research software:** Python, C#, Java, Minitab, Gurobi, IBM CPLEX.
+
 experiences:
     title: Work Experience
     info:
@@ -97,6 +102,11 @@ experiences:
         company: Mudanya University, Türkiye
         details: |
           Industrial Engineering Department
+          - Head of Industrial Engineering Department
+          - University Quality Commission Member
+          - University Ethics Committee Member
+          - Chairman of Faculty Quality Commission
+          - Faculty Management Board Member
         
       - role: Postdoctoral Researcher
         time: 2023 June - 2024 June
@@ -116,22 +126,55 @@ education:
       - degree: PhD in Industrial Engineering
         university: Erciyes University, Türkiye
         time: 2016 - 2021
-        details:           
+        details: |
+          Thesis: New algorithms for big data analysis
 
       - degree: MSc in Industrial Engineering
         university: Erciyes University, Türkiye
         time: 2014 - 2016
-        details: 
+        details: |
+          Thesis: Training artificial neural networks with new metaheuristic algorithms and their application to classification area of data mining
 
       - degree: BSc in Industrial Engineering (English)
         university: Hacettepe University, Türkiye
         time: 2009 - 2014
         details: 
 
+# ── YENİ BÖLÜM ────────────────────────────────────────────────────────────────
+awards:
+    title: Awards & Honors
+    list:
+      - award: World's Top 2% Scientists
+        year: 2025
+        body: Stanford University and Scopus
+        details:
+
+      - award: MSCA Postdoctoral Fellowships Seal of Excellence (94.20/100)
+        year: 2026
+        body: Marie Skłodowska-Curie Actions, European Commission
+        details:
+
+      - award: MSCA Postdoctoral Fellowships Seal of Excellence (87.20/100)
+        year: 2025
+        body: Marie Skłodowska-Curie Actions, European Commission
+        details:
+
+      - award: TUBITAK 2219 International Postdoctoral Research Fellowship
+        year: 2023
+        body: The Scientific and Technological Research Council of Türkiye
+        details:
+# ──────────────────────────────────────────────────────────────────────────────
+
 projects:
     title: Projects
     intro: 
     assignments:
+      # ── YENİ PROJE ──────────────────────────────────────────────────────────
+      - title: Automated Predictive Estimation Tool for Pricing MMC (LGS) Building Projects
+        link: "#"
+        tagline: "2025-2026, Construct Innovate"
+      # ────────────────────────────────────────────────────────────────────────
+
       - title: Explainable Artificial Intelligence For Multi-Criteria Optimization And Decision Analysis
         link: "#"
         tagline: "2023-2024, TUBITAK 2219 project"
@@ -153,12 +196,42 @@ publications:
     intro: 
 
     journal_papers:
-    
+
+      # ── YENİ MAKALELER (2026, CV'de vardı, sitede yoktu) ───────────────────
+      - title: "Dragon fruit drying method selection: A hybrid SWARA-EDAS-CoCoSo-MOORA MCDM approach"
+        authors: "Gülmez, B."
+        journal: "Drying Technology"
+        year: 2026
+        index: "SCIE, Q2"
+        link: "#"
+
+      - title: "Code generation with large language models: a survey from neural program synthesis to autonomous software development"
+        authors: "Gülmez, B."
+        journal: "Applied Intelligence"
+        year: 2026
+        index: "SCIE, Q2"
+        link: "#"
+
+      - title: "Artificial intelligence-driven smart grid optimization: a comprehensive review of machine learning, renewable integration, and cybersecurity applications"
+        authors: "Gülmez, B."
+        journal: "Energy Conversion and Management: X"
+        year: 2026
+        index: "ESCI"
+        link: "#"
+
+      - title: "Banana drying method selection: a hybrid multi-criteria decision making approach integrating SWARA weighting with MOORA, MARCOS, and PSI ranking methods"
+        authors: "Gülmez, B."
+        journal: "Journal of Food Processing and Preservation"
+        year: 2026
+        index: "SCIE, Q3"
+        link: "#"
+      # ────────────────────────────────────────────────────────────────────────
+
       - title: "A hybrid Decision tree-Markowitz framework for intelligent trading portfolio optimization"
         authors: "Korhan, E.; Gülmez, B."
         journal: "Applied Intelligence"
         year: 2026
-        index: "SCIE"
+        index: "SCIE, Q2"
         link: "#"
 
       - title: "Convolutional neural networks for prostate cancer detection, classification, and segmentation: A systematic review and bibliometric analysis"
@@ -172,28 +245,28 @@ publications:
         authors: "Gülmez, B."
         journal: "Critical Reviews in Oncology/Hematology"
         year: 2026
-        index: "SCIE"
+        index: "SCIE, Q1"
         link: "#"
 
       - title: "A novel hybrid MCDM framework combining TOPSIS, PROMETHEE II, and VIKOR for peach drying method selection"
         authors: "Gülmez, B."
         journal: "Current Research in Food Science"
         year: 2025
-        index: "SCIE"
+        index: "SCIE, Q1"
         link: "#"
 
       - title: "GA-Attention-Fuzzy-Stock-Net: An Optimized Neuro-Fuzzy System for Stock Market Price Prediction with Genetic Algorithm and Attention Mechanism"
         authors: "Gülmez, B."
         journal: "Heliyon"
         year: 2025
-        index: "SCIE"
+        index: "SCIE, Q1"
         link: "#"
 
       - title: "Deep learning based colorectal cancer detection in medical images: A comprehensive analysis of datasets, methods, and future directions"
         authors: "Gülmez, B."
         journal: "Clinical Imaging"
         year: 2025
-        index: "SCIE"
+        index: "SCIE, Q3"
         link: "#"
 
       - title: "A Hybrid Approach for Stock Market Price Forecasting Using Long Short-Term Memory and Seahorse Optimization Algorithm"
@@ -207,84 +280,84 @@ publications:
         authors: "Gülmez, B."
         journal: "Borsa Istanbul Review"
         year: 2024
-        index: "SSCI"
+        index: "SSCI, Q1"
         link: "#"
 
       - title: "Advancements in maize disease detection: A comprehensive review of convolutional neural networks"
         authors: "Gülmez, B."
         journal: "Computers in Biology and Medicine"
         year: 2024
-        index: "SCIE"
+        index: "SCIE, Q1"
         link: "#"
 
       - title: "Multi-objective optimization for green delivery routing problems with flexible time windows"
         authors: "Gülmez, B., Emmerich, M., Fan, Y."
         journal: "Applied Artificial Intelligence"
         year: 2024
-        index: "SCIE"
+        index: "SCIE, Q2"
         link: "#"
     
       - title: "A comprehensive review of convolutional neural networks based disease detection strategies in potato agriculture"
         authors: "Gülmez, B."
         journal: "Potato Research"
         year: 2024
-        index: "SCIE"
+        index: "SCIE, Q1"
         link: "#"
 
       - title: "A new multi-objective hyperparameter optimization algorithm for COVID-19 detection from x-ray images"
         authors: "Gülmez, B."
         journal: "Soft Computing"
         year: 2024
-        index: "SCIE"
+        index: "SCIE, Q2"
         link: "#"
 
       - title: "Stock price prediction with optimized deep LSTM network with Artificial Rabbits Optimization Algorithm"
         authors: "Gülmez, B."
         journal: "Expert Systems with Applications"
         year: 2023
-        index: "SCIE"
+        index: "SCIE, Q1"
         link: "#"
 
       - title: "A novel deep neural network model based Xception and Genetic Algorithm for detection of COVID-19 from X-Ray images"
         authors: "Gülmez, B."
         journal: "Annals of Operations Research"
         year: 2023
-        index: "SCIE"
+        index: "SCIE, Q1"
         link: "#"
 
       - title: "A novel deep learning model with the Grey Wolf Optimization algorithm for cotton disease detection"
         authors: "Gülmez, B."
         journal: "Journal of Universal Computer Science"
         year: 2023
-        index: "SCIE"
+        index: "SCIE, Q3"
         link: "#"
 
       - title: "Analysis and price prediction of secondhand vehicles in Türkiye with big data and machine learning techniques (Turkish)"
         authors: "Gülmez, B., Kulluk, S."
         journal: "Journal of Gazi University Engineering Faculty of Architecture"
         year: 2023
-        index: "SCIE"
+        index: "SCIE, Q3"
         link: "#"
 
       - title: "FC-Kmeans: Fixed-Centered Kmeans algorithm"
         authors: "Ay, M., Özbakır, L., Kulluk, S., Gülmez, B., Öztürk, G., Özer, S."
         journal: "Expert Systems with Applications"
         year: 2023
-        index: "SCIE"
+        index: "SCIE, Q1"
         link: "#"
 
       - title: "A constraint programming based column generation approach for crew scheduling: a case study for the Kayseri Railway"
         authors: "Tapkan, P., Kulluk, S., Özbakır, L., Bahar, F., Gülmez, B."
         journal: "Journal of the Operational Research Society"
         year: 2023
-        index: "SCIE"
+        index: "SCIE, Q2"
         link: "#"
 
       - title: "CNN-LSTM and clustering based spatial-temporal demand forecasting for on-demand ride services"
         authors: "Ay, M., Kulluk, S., Özbakır, L., Gülmez, B., Öztürk, G., Özer, S."
         journal: "Neural Computing and Applications"
         year: 2022
-        index: "SCIE"
+        index: "SCIE, Q1"
         link: "#"
 
       - title: "Optimizing and comparison of market chain product distribution problem with different Genetic Algorithm versions (Turkish)"
@@ -298,7 +371,7 @@ publications:
         authors: "Özbakır, L., Tapkan, P., Kulluk, S., Bahar, F., Gülmez, B."
         journal: "International Journal of Rail Transportation"
         year: 2022
-        index: "SCIE"
+        index: "SCIE, Q2"
         link: "#"
 
       - title: "Social Spider Algorithm for training artificial neural networks"
@@ -395,7 +468,7 @@ publications:
         link: "#"
 
       - title: "Stochastic Fractal Search Algorithm for Training ANNs on Production Dataset"
-        authors: "Gülmez, B., Kulluk, S., Özbakir, L., Tapkan, P."
+        authors: "Gülmez, B., Kulluk, S., Özbakır, L., Tapkan, P."
         conference: "International Symposium for Production Research"
         location: "Vienna, Austria"
         year: 2017
