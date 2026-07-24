@@ -404,6 +404,14 @@ publications:
         link: "#"
 
     conference_papers:
+
+     - title: "BIM-Integrated Machine Learning for Automated Cost Estimation in Light Gauge Steel Modern Methods of Construction"
+        authors: "Burak Gülmez, Mohamed SM Osman, Declan Wallace, Michael Murphy, Meisam Gordan, Daniel McCrum"
+        conference: "Civil Engineering Research in Ireland"
+        location: "Belfast, North Ireland"
+        year: 2026
+        link: "#"
+    
       - title: "Multi-objective green delivery routing with flexible time windows: minimizing fossile fuel consumption versus maximizing quality of service"
         authors: "Emmerich, M., Gülmez, B., Fan, Y."
         conference: "CM3 – TRANSPORT 2023"
