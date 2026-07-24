@@ -405,7 +405,7 @@ publications:
 
     conference_papers:
 
-     - title: "BIM-Integrated Machine Learning for Automated Cost Estimation in Light Gauge Steel Modern Methods of Construction"
+      - title: "BIM-Integrated Machine Learning for Automated Cost Estimation in Light Gauge Steel Modern Methods of Construction"
         authors: "Burak Gülmez, Mohamed SM Osman, Declan Wallace, Michael Murphy, Meisam Gordan, Daniel McCrum"
         conference: "Civil Engineering Research in Ireland"
         location: "Belfast, North Ireland"
