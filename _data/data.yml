@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Burak Gülmez
-    tagline: Associate professor
+    #tagline: Associate professor
     avatar: 1680092763732-01.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     academic_profiles:
@@ -82,8 +82,6 @@ career-profile:
 
       **MSCA Postdoctoral Fellowships Seal of Excellence, European Commission, 2025 & 2026**
 
-      **My current position:** Postdoctoral Researcher, School of Civil Engineering, University College Dublin, Dublin, Ireland
-      
       **My research interests:** Artificial intelligence, Metaheuristic algorithms, Machine learning, Deep learning, Operations research, Big data, Data mining, Transportation, Logistics, Multi-objective optimization.
 
       **Research software:** Python, C#, Java, Minitab, Gurobi, IBM CPLEX.
