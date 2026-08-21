@@ -195,7 +195,20 @@ publications:
 
     journal_papers:
 
-      # ── YENİ MAKALELER (2026, CV'de vardı, sitede yoktu) ───────────────────
+      - title: "Asset Clustering–Driven Risk–Return Trade-Offs Using AGE-MOEA in Multi-Objective Portfolio Optimization: Evidence from the EuroStoxx 50"
+        authors: "Korhan, E.; Gülmez, B."
+        journal: "Borsa Istanbul Review"
+        year: 2026
+        index: "SSCI, Q1"
+        link: "#"
+
+      - title: "AI-Driven Hybrid Wavelet–LSTM–NSGA-III Framework for Robust Multi-Objective Portfolio Optimization in Volatile Cryptocurrency Markets"
+        authors: "Korhan, E.; Gülmez, B."
+        journal: "Applied Intelligence"
+        year: 2026
+        index: "SCIE, Q2"
+        link: "#"
+        
       - title: "Dragon fruit drying method selection: A hybrid SWARA-EDAS-CoCoSo-MOORA MCDM approach"
         authors: "Gülmez, B."
         journal: "Drying Technology"
@@ -402,6 +415,20 @@ publications:
         link: "#"
 
     conference_papers:
+
+      - title: "Artificial Intelligence Based Estimation of Offsite Panel Requirements in Building Construction: Challenges and Opportunities"
+        authors: "Gülmez, B., Osman, M., Wallace, D., Murphy, M., Gordan, M., McCrum, D."
+        conference: "Transforming Construction with Off-Site Methods and Technologies"
+        location: "Newcastle, England"
+        year: 2026
+        link: "#"
+
+      - title: "Comparative Security Evaluation of Open-Source Large Language Models Against Turkish-Language Adversarial Prompts"
+        authors: "Gülmez, B."
+        conference: "International Conference on Engineering and Applied Natural Sciences"
+        location: "Konya, Türkiye"
+        year: 2026
+        link: "#"
 
       - title: "BIM-Integrated Machine Learning for Automated Cost Estimation in Light Gauge Steel Modern Methods of Construction"
         authors: "Burak Gülmez, Mohamed SM Osman, Declan Wallace, Michael Murphy, Meisam Gordan, Daniel McCrum"
