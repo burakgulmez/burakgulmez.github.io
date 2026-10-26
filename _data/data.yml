@@ -78,9 +78,9 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      **Top 2% scientists list by Stanford University and Scopus, 2025**
+      **Top 2% scientists list by Stanford University and Scopus, 2025, 2026**
 
-      **MSCA Postdoctoral Fellowships Seal of Excellence, European Commission, 2025 & 2026**
+      **MSCA Postdoctoral Fellowships Seal of Excellence, European Commission, 2025, 2026**
 
       **My research interests:** Artificial intelligence, Metaheuristic algorithms, Machine learning, Deep learning, Operations research, Big data, Data mining, Transportation, Logistics, Multi-objective optimization.
 
@@ -143,6 +143,11 @@ awards:
     title: Awards & Honors
     list:
       - award: World's Top 2% Scientists
+        year: 2026
+        body: Stanford University and Scopus
+        details:
+        
+      - award: World's Top 2% Scientists
         year: 2025
         body: Stanford University and Scopus
         details:
@@ -194,6 +199,13 @@ publications:
     intro: 
 
     journal_papers:
+
+      - title: "Multi-objective evolutionary scheduling of a human-centric five-objective job-shop problem: A problem-type study with explainability and simulated human feedback"
+        authors: "Gülmez, B."
+        journal: "Computers and Industrial Engineering"
+        year: 2026
+        index: "SCIE, Q1"
+        link: "#"
 
       - title: "Asset Clustering–Driven Risk–Return Trade-Offs Using AGE-MOEA in Multi-Objective Portfolio Optimization: Evidence from the EuroStoxx 50"
         authors: "Korhan, E.; Gülmez, B."
